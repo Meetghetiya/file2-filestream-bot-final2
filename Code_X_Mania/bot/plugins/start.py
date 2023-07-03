@@ -69,7 +69,7 @@ async def start(b, m):
 <i><b>It is your responsibility to use wisely I dont take responsibilities of any voilations(of any kind)</i>\n
 <i><u>𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u></i>\n
 <b>Dont Spam.</b>""",
-            parse_mode="HTML",
+            # parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Owner', url=f"https://t.me/selfiebd"),
                                                                                        InlineKeyboardButton('Follow ', url='https://t.me/Dcstreambot') ] ]  ) )
